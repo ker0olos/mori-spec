@@ -1,5 +1,12 @@
 ## Version 1 (Unfinished)
 
+```
+#### Mori is an unreleased software, still under development.
+#### How and when it's released publicy, or if ever are all questions I can't anwser
+#### But try to figure what it does based only on this spec
+#### ¯\_(ツ)_/¯
+```
+
 This is the official specification listing all the IDs, and namespace attributes that the app looks for and apply effects on.
 
 ---
