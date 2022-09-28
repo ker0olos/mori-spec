@@ -42,8 +42,8 @@ ID | Type | Optional Attributes
 ID | Type | Optional Attributes
 --- | --- | ---
 `mouth` | Any | `mori:scale`
-`left-eye` | Any | `mori:scale`, `mori:clippath`
-`right-eye` | Any | `mori:scale`, `mori:clippath`
+`left-eye` | Any | `mori:scale`
+`right-eye` | Any | `mori:scale`
 `left-eyebrow` | Any |`mori:scale`
 `right-eyebrow` | Any | `mori:scale`
 `left-iris` | Any | `mori:scale`
@@ -56,5 +56,4 @@ ID | Type | Optional Attributes
 Attribute | Description | Default | Type
 --- | --- | --- | ---
 `mori:scale` | controls the sensitivity of the effects compered to the size of the element | `1` | Any number
-`mori:clippath` | don't allow overflow | `on` | `on` or `off`
 `mori:xpivot`, `mori:ypivot` | indicate that a rotation can happen to the element and allow you to offset it's center | `0.015`, `0.03` | Any number
