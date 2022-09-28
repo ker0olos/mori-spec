@@ -36,9 +36,6 @@ The following is a list of all available `id`(s), their children, and their attr
 ID | Type | Optional Attributes
 --- | --- | ---
 `face` | [Group](#face) | `mori:xpivot`, `mori:ypivot`
-`left-arm` | Group | `mori:xpivot`, `mori:ypivot`
-`right-arm` | Group | `mori:xpivot`, `mori:ypivot`
-
 
 #### Face
 
