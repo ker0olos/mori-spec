@@ -18,9 +18,6 @@ _Available on the main `<svg>` element that parents the model._
 Attribute | Description | Default | Type
 --- | --- | --- | ---
 `mori:canvas-zoom` | controls how big the model is compared to the canvas | `1` | Any number
-`mori:tracking` | the type of tracking that the model utilizes | `face` | `face`, `experimental`
-`mori:pose-sensitivity` | how accurate must the app be to apply the detected pose to the model | `0.8` | `0` to `1`
-
 
 <br />
 
