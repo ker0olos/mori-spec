@@ -55,7 +55,9 @@ Attribute | Description | Default | Type
 `mori:scale` | controls the sensitivity of the effects compered to the size of the element | `1` | Any number
 `mori:xpivot`, `mori:ypivot` | indicate that a rotation can happen to the element and allow you to offset it's center | `0.015`, `0.03` | Any number
 
-#### keyframes
+---
+
+### Keyframes
 
 Keyframes are how mori does rotations.
 
