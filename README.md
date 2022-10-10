@@ -48,16 +48,7 @@ ID | Type | Optional Attributes
 
 ---
 
-### Available Attributes
-
-Attribute | Description | Default | Type
---- | --- | --- | ---
-`mori:scale` | controls the sensitivity of the effects compered to the size of the element | `1` | Any number
-`mori:xpivot`, `mori:ypivot` | indicate that a rotation can happen to the element and allow you to offset it's center | `0.015`, `0.03` | Any number
-
----
-
-### Keyframes
+#### Keyframes
 
 Keyframes are how mori does rotations.
 
@@ -70,4 +61,13 @@ Attribute | Description | Type
 `mori:keyframe-href` | the id of the element that the keyframe is being attached to | `#face`
 `mori:keyframe-deg` | the degree of the keyframe | `0` -> `360`
 
+---
 
+#### Available Attributes
+
+Attribute | Description | Default | Type
+--- | --- | --- | ---
+`mori:scale` | controls the sensitivity of the effects compered to the size of the element | `1` | Any number
+`mori:xpivot`, `mori:ypivot` | indicate that a rotation can happen to the element and allow you to offset it's center | `0.015`, `0.03` | Any number
+
+> Attributes on keyframes are ignored and don't transition over. That includes svg attribute like `style`, `fill`, etc... This is the intended behaviour. 
