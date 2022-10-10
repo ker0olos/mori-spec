@@ -65,9 +65,9 @@ Mori transitions from one keyframe (degree) to the other. If a degree is missing
 
 Keyframes are currently only being used for head rotations. Adding custom keyframes to `#face` will override or help guide the rotation in the right direction.
 
-Attribute | Description | Type | Example
+Attribute | Description | Type
 --- | --- | --- | ---
-`mori:keyframe-href` | the id of the element that the keyframe is being attached to | Any number | "#face"
-`mori:keyframe-deg` | the degree of the keyframe | 0 -> 360 | "90", or "180"
+`mori:keyframe-href` | the id of the element that the keyframe is being attached to | `#face`
+`mori:keyframe-deg` | the degree of the keyframe | `0` -> `360`
 
 
